@@ -32,7 +32,7 @@ type Vehiculo struct {
 	Modelo       string
 	FechaEntrada string
 	FechaSalida  string
-	Incidencias  []*Incidencia
+	Incidencias  *Incidencia
 }
 
 // Incidencia representa un trabajo o avería a reparar
